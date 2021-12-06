@@ -119,89 +119,93 @@ figure {
 }
 
 /* task 1  ============= */
-.t-1 {
+.task-1 .t-1 {
     float: left;
 }
 
 /* task 2  ============= */
-.t-1 {
+.task-2 .t-1 {
     float: left;
 }
-.t-2 {
+.task-2 .t-2 {
     float: left;
 }
 /* task 3  ============= */
-.t-1 {
+.task-3 .t-1 {
     float: left;
     width: 50%;
 }
-.t-2 {
+.task-3 .t-2 {
     float: left;
     width: 50%;
 }
 /* task 4  ============= */
-.b-1 {
+.task-4 .b-1 {
     float: right;
     width: 50%;
 }
-.b-2 {
+.task-4 .b-2 {
     float: left;
     width: 50%;
 }
 
 /* task 5  ============= */
-.b-1 {
+.task-5 .b-1 {
     float: left;
     width: 50%;
 }
-.b-2 {
+.task-5 .b-2 {
     float: right;
     width: 50%;
 }
-.b-3 {
+.task-5 .b-3 {
     float: left;
     width: 33%;
 }
 
 /* task 6  ============= */
-.header {
+.task-6 .header {
     height: 100px;
 }
-.b-2 {
+.task-6 .b-2 {
     float: left;
     width: 30%;
 }
-.b-3 {
+.task-6 .b-3 {
     float: right;
     width: 70%;
 }
-.b-4 {
+.task-6 .b-4 {
     height: 100px;
 }
 
 /* task 7  ============= */
-.b-1 {
+.task-7 .header {
+    height: 25%;
+}
+
+.task-7 .b-1 {
     float: left;
     width: 33%;
 }
-.b-2 {
+.task-7 .b-2 {
     float: left;
     width: 34%;
 }
-.b-3 {
+.task-7 .b-3 {
     float: right;
     width: 33%;
 }
-.b-4 {
+.task-7 .b-4 {
     float: left;
     width: 75%;
     height: 25%;
 }
-.b-5 {
+.task-7 .b-5 {
     float: right;
     width: 25%;
 }
-.b-6 {
+.task-7 .b-6 {
     float: left;
     width: 100%;
 }
@@ -215,6 +219,19 @@ figure {
     padding: 10px;
     min-height: 50px;
 }
+.task-8 .b-1 {
+    float: left;
+    width: 50%;
+}
+.task-8 .b-2,
+.task-8 .b-3 {
+float: left;
+width: 50%;
+}
+.task-8 .b-4 {
+    float: right;
+    width: 50%;
+}
 
 /* task-9 ======================== */
 
@@ -223,9 +240,16 @@ figure {
 }
 
 .nav-9 ul {
+    overflow: auto;
+    padding: 0;
 }
 
 .nav-9 ul li {
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    padding: 7px;
 }
 
 /* task-10 ======================== */
@@ -239,7 +263,9 @@ figure {
     padding-left: 0;
 
 }
-
+.nav-10 ul {
+    font-size: 0;
+}
 .nav-10 ul li {
     display: inline-block;
     list-style-type: none;
